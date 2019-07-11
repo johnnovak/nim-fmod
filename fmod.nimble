@@ -1,6 +1,6 @@
 # Package
 
-version       = "0.1.0"
+version       = "0.1.1"
 author        = "John Novak"
 description   = "Nim wrapper for the FMOD Low Level C API"
 license       = "MIT"
@@ -9,7 +9,7 @@ skipDirs = @["examples"]
 
 # Dependencies
 
-requires "nim >= 0.18.0"
+requires "nim >= 0.20.0"
 
 # Tasks
 

@@ -857,7 +857,7 @@ type
   FMOD_DSP_PARAMETER_DESC_DATA* = object
     datatype*: cint
 
-  FMOD_DSP_PARAMETER_DESC_UNION* = object {.union.}
+  FMOD_DSP_PARAMETER_DESC_UNION* {.union.} = object
     floatdesc*: FMOD_DSP_PARAMETER_DESC_FLOAT
     intdesc*: FMOD_DSP_PARAMETER_DESC_INT
     booldesc*: FMOD_DSP_PARAMETER_DESC_BOOL
